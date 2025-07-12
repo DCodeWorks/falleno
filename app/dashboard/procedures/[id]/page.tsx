@@ -24,7 +24,7 @@ export default async function ProcedureDetailPage({ params }: { params: { id: st
 
   return (
     <div>
-      <Link href="/" className="flex items-center gap-2 text-sm text-blue-600 hover:underline mb-6">
+      <Link href="/dashboard" className="flex items-center gap-2 text-sm text-blue-600 hover:underline mb-6">
         <ArrowLeft size={16} />
         Torna alla Dashboard
       </Link>
@@ -37,7 +37,7 @@ export default async function ProcedureDetailPage({ params }: { params: { id: st
       <h2 className="text-2xl font-semibold mb-4">Beni Catalogati ({assets.length})</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {assets.map(asset => (
-          <Link key={asset.id} href={`/procedures/${procedure.id}/assets/${asset.id}`} className="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden border-l-4 ${getStatusColor(asset.status)}">
+          <Link key={asset.id} href={`/dashboard/procedures/${procedure.id}/assets/${asset.id}`} className="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden border-l-4 ${getStatusColor(asset.status)}">
             <div className="relative h-40 w-full">
                 <Image src={asset.imageUrl} alt={asset.name} layout="fill" objectFit="cover" />
             </div>

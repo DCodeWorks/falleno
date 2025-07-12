@@ -88,7 +88,7 @@ export default function AssetDetailPage() {
     <>
       <div>
         <Link
-          href={`/procedures/${procedure.id}`}
+          href={`/dashboard/procedures/${procedure.id}`}
           className="flex items-center gap-2 text-sm text-blue-600 hover:underline mb-6"
         >
           <ArrowLeft size={16} />
