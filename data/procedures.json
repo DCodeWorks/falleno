@@ -1,0 +1,23 @@
+[
+  {
+    "id": "proc-001",
+    "name": "Fallimento Costruzioni S.r.l.",
+    "court": "Tribunale di Milano",
+    "status": "In Corso",
+    "assetCount": 3
+  },
+  {
+    "id": "proc-002",
+    "name": "Liquidazione Alfa S.p.A.",
+    "court": "Tribunale di Roma",
+    "status": "In Corso",
+    "assetCount": 2
+  },
+  {
+    "id": "proc-003",
+    "name": "Concordato Preventivo Rossi Legnami",
+    "court": "Tribunale di Torino",
+    "status": "Completata",
+    "assetCount": 0
+  }
+]

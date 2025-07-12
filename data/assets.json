@@ -1,0 +1,52 @@
+[
+  {
+    "id": "asset-101",
+    "procedureId": "proc-001",
+    "name": "Scavatore Cingolato CAT 320",
+    "description": "Scavatore cingolato marca Caterpillar, modello 320. Ore di lavoro stimate: 4500. Buone condizioni generali, necessita di manutenzione ordinaria.",
+    "category": "Macchinari da Cantiere",
+    "estimatedValue": 35000,
+    "status": "Disponibile",
+    "imageUrl": "https://placehold.co/600x400/cccccc/333333?text=Scavatore+CAT"
+  },
+  {
+    "id": "asset-102",
+    "procedureId": "proc-001",
+    "name": "Lotto di Ponteggi (200mq)",
+    "description": "Lotto completo di ponteggi a telaio prefabbricato, sufficiente per coprire una superficie di circa 200mq. Include tutti gli accessori.",
+    "category": "Attrezzature Edili",
+    "estimatedValue": 8000,
+    "status": "Disponibile",
+    "imageUrl": "https://placehold.co/600x400/cccccc/333333?text=Ponteggi"
+  },
+  {
+    "id": "asset-103",
+    "procedureId": "proc-001",
+    "name": "Furgone Fiat Ducato",
+    "description": "Furgone cassonato Fiat Ducato, anno 2018, 180.000 km. Motore in buone condizioni, carrozzeria con alcuni segni di usura.",
+    "category": "Veicoli Commerciali",
+    "estimatedValue": 12500,
+    "status": "Offerta Ricevuta",
+    "imageUrl": "https://placehold.co/600x400/cccccc/333333?text=Fiat+Ducato"
+  },
+  {
+    "id": "asset-201",
+    "procedureId": "proc-002",
+    "name": "Stock di 25 PC Desktop Dell OptiPlex",
+    "description": "Lotto di 25 computer desktop Dell OptiPlex 7070, Core i5, 8GB RAM, 256GB SSD. Funzionanti, senza monitor.",
+    "category": "Elettronica",
+    "estimatedValue": 4500,
+    "status": "Disponibile",
+    "imageUrl": "https://placehold.co/600x400/cccccc/333333?text=PC+Dell"
+  },
+  {
+    "id": "asset-202",
+    "procedureId": "proc-002",
+    "name": "Arredamento Ufficio Completo",
+    "description": "Set completo di arredamento per ufficio per 10 postazioni, include scrivanie, sedie ergonomiche, cassettiere e armadi.",
+    "category": "Arredamento",
+    "estimatedValue": 7000,
+    "status": "Da Smaltire",
+    "imageUrl": "https://placehold.co/600x400/cccccc/333333?text=Arredo+Ufficio"
+  }
+]
